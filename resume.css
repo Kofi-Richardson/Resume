@@ -1,0 +1,90 @@
+.cv-info{
+    margin:50px 200px;
+    border: 0.5px solid #ff0513;
+}
+
+.profile{
+    width: 200px;
+    padding: 20px;
+}
+
+
+.intro{
+    display: flex;
+     padding: 20px;
+}
+
+.profile-info{
+    /* display: flex; */
+     padding: 20px;
+}
+.greetings{
+     padding: 20px;
+}
+
+.profile-details{
+    display: flex;
+}
+.first-detail{
+     padding: 20px;
+}
+
+.second-detail{
+     padding: 20px;
+}
+.Lcont{
+    display: flex;
+}
+
+#label,#data{
+    padding: 10px 3px;
+}
+
+#label{
+    color: #ff0513;
+}
+
+.services{
+    margin: 0px 200px;
+    padding: 20px;
+}
+
+.service-blog{
+    margin: 20px 0px;
+    display: flex;
+    padding: 20px;
+    border-top: 0.5px solid #ff0513;
+    border-bottom: 0.5px solid #ff0513;
+}
+
+h4{
+    padding: 10px;
+}
+
+.blog-div{
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.5px solid #ff0513;
+}
+.Experience,.Education{
+    margin: 20px;
+}
+.Expe-div{
+    margin: 20px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.5px solid #ff0513;
+}
+
+.Education-Expe{
+    margin: 50px 200px;
+    display: flex;
+   align-content: center;
+    border-top: 0.5px solid #ff0513;
+    border-bottom: 0.5px solid #ff0513;
+}

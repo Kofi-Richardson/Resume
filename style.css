@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #040b33;
+    color: white;
+     font-family: 'Montserrat',
+     sans-serif;
+}
+
+a{
+    text-decoration: white;
+    color: white;
+}
+
+ 
+ ul{
+    list-style: none;
+    display: flex;
+    
+}
+.name h2
+{
+    /* border-bottom: 2px solid #ff0513; */
+    padding: 10px;
+}
+.header{
+    margin: 50px;
+
+}
+
+.nav{
+    display: flex;
+}
+
+.navlist {
+   
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.navlist ul li{
+    margin-left: 10px;
+}
+
+.navlist ul li:hover,
+.navlist ul li a:focus{
+    border-bottom: 2px solid white;
+}
+
+.detail{
+    margin: 50px;
+     
+ 
+}
+
+.info{
+    /* margin-top: 70px; */
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    text-align: left;
+   
+}
+h1{
+    font-size: 48px;
+}
+h3{
+    /* border-bottom: 2px solid #ff0513; */
+    width: 350px;
+    padding: 10px;
+}
+
+.footer{
+   
+  
+    
+    display: flex;
+    margin: 50px;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.firstul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.socialsul li,
+.firstul li {
+    
+    margin-left: 10px;
+}
+
+.socialsul{
+  
+    margin-left: 850px;
+}
+
+
+
+@media screen and (max-width:400px){
+
+    .header{
+        margin: 25px;
+    }
+    .nav{
+        align-items: center;
+    }
+
+    .name h2{
+        font-size: 16px;
+    }
+
+    .navlist{
+        margin-right: 0px;
+    }
+    .navlist ul{
+        font-size: 14px;
+    }
+
+    .detail{
+        margin: 25px;
+    }
+
+    .info{
+        top: 35%;
+        left: 15%;
+    }
+
+    .navlist ul li:hover,
+    .navlist ul li a:focus {
+        border-bottom: 2px solid white;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    h3{
+        font-size: 16px;
+        padding:0px;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .first, .firstul li{
+        padding: 10px;
+    }
+
+    .socialsul{
+        margin-left: 0px;
+    }
+}
