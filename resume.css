@@ -88,3 +88,39 @@ h4{
     border-top: 0.5px solid #ff0513;
     border-bottom: 0.5px solid #ff0513;
 }
+
+
+@media screen and (max-width:400px) {
+    
+    .cv-info,.services,.Education-Expe{
+        margin: 10px 20px;
+    }
+    .intro{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .profile-details{
+        flex-direction: column;
+    }
+
+    .first-detail,.second-detail{
+        padding: 5px;
+        width: 350px;
+    }
+
+   .services{
+       padding: 5px;
+   }
+
+   .service-blog{
+       flex-direction: column;
+   }
+   .blog-div{
+       margin: 20px 0px;
+   }
+
+   .Education-Expe{
+       flex-direction: column;
+   }
+}
