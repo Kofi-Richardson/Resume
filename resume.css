@@ -4,8 +4,11 @@
 }
 
 .profile{
+    display: flex;
+    justify-content: center;
     width: 200px;
     padding: 20px;
+    align-self: center;
 }
 
 
@@ -55,6 +58,14 @@
     padding: 20px;
     border-top: 0.5px solid #ff0513;
     border-bottom: 0.5px solid #ff0513;
+}
+
+
+
+.profile img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
 }
 
 h4{
