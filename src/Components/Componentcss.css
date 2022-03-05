@@ -4,6 +4,11 @@
 .header{
     display: flex;
     margin: 0px 50px;
+    font-size: 16px;
+    font-weight: var(--600);
+    position: fixed;
+    z-index: -1;
+    width: 1280px;
 
 }
 
@@ -14,15 +19,40 @@
 .header ul {
     display: flex;
     list-style: none;
-    font-size: 18px;
+   
 }
 
 .header ul li{
     margin: 0px 10px;
+    font-size: 16px;
 }
 
 #Name{
     color: #ff0513;
-    font-size: 18px;
-    font-size: 18px;
+    font-size: 16px;
+    
+}
+
+
+/* Greetings styling */
+#greetings-bold{
+    font-size: 44px;
+    font-weight: var(--500);
+    
+}
+.greetings-body{
+    margin: auto;
+    height: 100vh;
+    width: 966px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Greetings{
+    font-weight: var(--500);
+    max-width: 800px;
+}
+strong{
+    font-weight: var(--700);
+    color: var(--red);
 }

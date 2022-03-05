@@ -5,7 +5,7 @@ import './Componentcss.css'
 
 export default function Header(){
     return(
-        <header className='header margin'>
+        <header className='header '>
             <h1 id='Name'>Kofi Richardson</h1>
 
             <ul>

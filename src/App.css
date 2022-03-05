@@ -2,16 +2,26 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
+}
+
+body{
   font-family: 'Montserrat Alternates', sans-serif;
   background-color: var(--dark-blue);
   color: white;
+  font-weight: var(--400);
+  line-height: 1.5;
+  letter-spacing: 0;
 }
 
 :root{
   /* font weight */
   --300: 300;
+  --400: 400;
   --500: 500;
+  --600: 600;
   --700: 700;
+
 
   /* color */
   --red : #ff0513;
@@ -24,11 +34,14 @@
 
 .appBody{
   margin: 30px;
+  height: 100vh;
+  
 }
 
 .appContent{
   max-width: 70%;
   margin:auto;
+  height: 400px;
 }
 
 /* */
